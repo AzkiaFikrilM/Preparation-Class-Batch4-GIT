@@ -1,13 +1,6 @@
-Jabarkan dan jelaskan langkah-langkah untuk generate SSH Key:
-1. Buka terminal.
-2. Masuk pada direktori folder .ssh cd ./.ssh
-3. Buat key SSH ssh-keygen
-4. Jalankan SSH agen dan load SSH key ps -e | grep [s]sh-agent
-5. Jika belum berjalan, gunakan perintah berikut ini untuk menjalankan SSH agent ssh-agent /bin/bash
-6. Berikutnya kita Load SSH Key. Gunakan perintah ssh-add ~/.ssh/id_anda
-7. Kemudian untuk mengecek, gunakan perintah ssh-add -l
-8. Ambil kunci publik yang sudah dibuat cat ~/.ssh/id_anda.pub
-9. Copy semua teks yang ditampilkan.
-10. Buka profil github dan masuk ke Settings > SSH and GPG Keys, buat kunci
-baru dengan mengklik New SSH Key. Lalu masukkan key yang sudah dibuat.
-11. Selanjutnya kita tinggal melakukan push dengan SSH.
+Jabarkan dan jelaskan masing-masing Extensions (Mobile Flutter):
+1. Flutter & Dart : Ekstensi VS Code ini menambahkan dukungan untuk mengedit, memfaktorkan ulang, menjalankan, dan memuat ulang aplikasi seluler Flutter secara efektif, serta dukungan untuk bahasa pemrograman Dart.
+2. Todo Tree : Memudahkan kita mencatat atau yang perlu kita perbaiki.
+3. Bracket Pair Colorizer 2 : Ekstensi ini memungkinkan tanda kurung yang cocok untuk diidentifikasi dengan warna. 
+4. Pubspec Assist : Sangat membantu kita ketika kita ingin menambahkan package pada pubspec.yaml kita. 
+5. Error Lens : Selalu menampilkan apa yang salah dari kodingan kita (Run time error).
