@@ -1,0 +1,13 @@
+Jabarkan dan jelaskan langkah-langkah untuk generate SSH Key:
+1. Buka terminal.
+2. Masuk pada direktori folder .ssh cd ./.ssh
+3. Buat key SSH ssh-keygen
+4. Jalankan SSH agen dan load SSH key ps -e | grep [s]sh-agent
+5. Jika belum berjalan, gunakan perintah berikut ini untuk menjalankan SSH agent ssh-agent /bin/bash
+6. Berikutnya kita Load SSH Key. Gunakan perintah ssh-add ~/.ssh/id_anda
+7. Kemudian untuk mengecek, gunakan perintah ssh-add -l
+8. Ambil kunci publik yang sudah dibuat cat ~/.ssh/id_anda.pub
+9. Copy semua teks yang ditampilkan.
+10. Buka profil github dan masuk ke Settings > SSH and GPG Keys, buat kunci
+baru dengan mengklik New SSH Key. Lalu masukkan key yang sudah dibuat.
+11. Selanjutnya kita tinggal melakukan push dengan SSH.
