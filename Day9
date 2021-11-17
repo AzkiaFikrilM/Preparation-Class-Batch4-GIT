@@ -1,7 +1,16 @@
-1.  CTRL + P : Untuk menampilkan pencarian file.
-2.  CTRL + Shift + P : Untuk menampilkan command pallete.
-3.  CTRL + S : Untuk save file.
-4.  CTRL + F : Memudahkan kita untuk mencari kodingan.
-5.  CTRL + Space : Sangat membantu kita jika kita lupa kode apa yang akan kita gunakan selanjutnya. 
-6.  CTRL + / : Komen agar pesan tidak ikut dieksekusi.
-7.  CTRL + Shif + P : Memudahkan kita untuk menampilkan command pallete.
+Jelaskan perbedaan penggunaan pada Trello vs Jira vs You Track
+Trello : - Jika salah satu tim anda melakukan perubahan pada fitur cards, maka perubahan tersebut juga dapat dilihat oleh siapapun dalam tim tersebut tanpa perlu menunggu.
+         - Mempunyai kemudahan dalam menambah dan mengurangi jumlah anggota tim dalam suatu proyek.
+         - Memiliki desain yang responsif dan mendukung tampilan yang mobile friendly.
+         - Mempunyai sistem notifikasi yang baik untuk mempermudah dalam proses komunikasi antar tiap divisi.
+         - Tidak memerlukan tambahan aplikasi atau tools untuk mengirimkan dokumen atau menulis catatan tambahan pada proyek yang dikerjakan.
+Jira : - adanya template untuk mempermudah pemberian tugas
+       - dukungan komunitas dan pelatihan yang mumpuni
+       - mudah digunakan dan intuitif
+You Track : - menemukan kueri berbasis insiden dengan pelengkapan otomatis
+            - penanganan insiden batch
+            - kustomisasi semua atribut masalah
+            - pembuatan alur kerja kustom.
+
+Dari ketinganya temen-temen pilih apa?
+Jawab : Trello.
